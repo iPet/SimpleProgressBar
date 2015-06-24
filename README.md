@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'simple_progress_bar'
+progress = SimpleProgressBar.new
+progress.increment => 
+```
 
 ## Development
 
