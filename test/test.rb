@@ -6,7 +6,7 @@ class SimpleProgressBarTest < Test::Unit::TestCase
   def return_progress_bar(max=100)
     SimpleProgressBar.new(max)
   end
-
+  
   def test_init
     progress = return_progress_bar(50)
     progress.max == 50.0
