@@ -23,7 +23,8 @@ Or install it yourself as:
 ```
 require 'simple_progress_bar'
 progress = SimpleProgressBar.new
-progress.increment => 
+progress.increment 5
+progress.inspect => "#<SimpleProgressBar:5.0/100.0>" 
 ```
 
 ## Development
